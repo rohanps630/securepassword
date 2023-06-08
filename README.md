@@ -27,7 +27,7 @@ To install Secure Password, follow these steps:
 Here's an example of how to use Secure Password in your code:
 
 ```typescript
-import { calculatePasswordStrength, defaultPasswordConfig } from 'securepassword';
+import { calculatePasswordStrength, defaultPasswordConfig } from '@rps/securepassword';
 
 const password = 'MySecurePassword123';
 const config = { ...defaultPasswordConfig }; // Customize the configuration if needed
