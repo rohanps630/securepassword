@@ -9,10 +9,10 @@ import { calculateThreshold } from "./utils";
  * @param {Config} config - The configuration for password validation. (optional)
  * @returns {PasswordStrengthResult} - The password strength result.
  */
-function calculatePasswordStrength(
+export function calculatePasswordStrength(
   password: string,
   config: Config = defaultPasswordConfig
-): PasswordStrengthResult {
+): any {
   const activeCriteria: Criterion[] = [];
 
   for (const [key, value] of Object.entries(passwordCriteria)) {
@@ -54,5 +54,3 @@ function calculatePasswordStrength(
 
   return { messages, strength };
 }
-
-export default calculatePasswordStrength;
