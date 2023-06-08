@@ -1,0 +1,21 @@
+{
+  "name": "@rohanps630/securepassword",
+  "version": "1.0.0",
+  "description": "Secure Password: Assess and Strengthen Passwords for Maximum Security!",
+  "keywords": [],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "author": "Rohan P. Suresh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rohanps630/securepassword.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
