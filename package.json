@@ -1,6 +1,6 @@
 {
-  "name": "@rps/securepassword",
-  "version": "1.0.0",
+  "name": "@rohanps630/securepassword",
+  "version": "1.0.1",
   "description": "Secure Password: Assess and Strengthen Passwords for Maximum Security!",
   "keywords": [],
   "main": "lib/index.js",
@@ -17,5 +17,12 @@
   },
   "devDependencies": {
     "typescript": "^5.1.3"
+  },
+  "bugs": {
+    "url": "https://github.com/rohanps630/securepassword/issues"
+  },
+  "homepage": "https://github.com/rohanps630/securepassword#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
